@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="headerone">
+          <div class="headeronediv">
+            <p class="headeronedivp">
+              <span> <i class="bi bi-geo-alt-fill"></i></span>
+              We are serving since 1985 at New York
+            </p>
+
+            <p>
+              <span> <i class="bi bi-envelope-fill"></i></span>
+              borex@themdraft.net
+            </p>
+          </div>
+          <div class="icons">
+            <i class="bi bi-twitter"></i><i class="bi bi-facebook"></i
+            ><i class="bi bi-linkedin"></i><i class="bi bi-instagram"></i>
+          </div>
+        </div>
+        <div class="headertwo">
+          <div class="logo"></div>
+          <div class="navbar">
+            <!-- fixed-top -->
+            <nav class="navbar">
+              <div class="container-fluid">
+                <div class="logo1">
+                  <a class="navbar-brand" href="#">
+                    <img
+                      src="./images/logo.jpeg"
+                      alt=""
+                      width="200px"
+                      height="100px"
+                    />
+                  </a>
+                </div>
+
+                <div class="navb">
+                  <ul>
+                    <li><a href="#home"> Company profile</a></li>
+                    <li class="dropdownn">
+                      <a href="javascript:void(0)" class="dropbtnn"
+                        >Products <span class="bi bi-plus"></span
+                      ></a>
+                      <div class="dropdownn-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div>
+                    </li>
+                    <li class="dropdownn">
+                      <a href="javascript:void(0)" class="dropbtnn"
+                        >Consulting services <span class="bi bi-plus"></span
+                      ></a>
+                      <div class="dropdownn-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div>
+                    </li>
+                    <li class="dropdownn">
+                      <a href="javascript:void(0)" class="dropbtnn"
+                        >About us <span class="bi bi-plus"></span
+                      ></a>
+                      <div class="dropdownn-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div>
+                    </li>
+                    <li><a href="#news">Meet us </a></li>
+                    <li><a href="#news">Contact us </a></li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="buttondiv">
+                    <button class="btnred">
+                      Get A Quoate <span class="bi bi-arrow-right"></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="toogle">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                      Offcanvas
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="offcanvasNavbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Dropdown
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="offcanvasNavbarDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Another action</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider" />
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Something else here</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <button class="btn btn-outline-success" type="submit">
+                        Search
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="slide1">
+
+        <h1>Investment <br> Planning</h1>
+        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+        <div class="buttondiv">
+
+        <button class="btnred">
+          LEARN MORE <span class="bi bi-arrow-right"></span>
+        </button>
+      </div>
+
+      </div>
+      <div class="slide2">
+        <div class="fourpic">
+          <div><img src="./images/sub-thumb.webp" alt="" /></div>
+          <div><img src="./images/sub-thumb.webp" alt="" /></div>
+          <div><img src="./images/sub-thumb.webp" alt="" /></div>
+          <div><img src="./images/sub-thumb.webp" alt="" /></div>
+        </div>
+        <div class="why_Choose_us">
+          <div class="why_Choose_usdiv1">
+            <div>
+              <h3 class="firstheading">Why Choose Us <span>____</span></h3>
+              <h1 class="secondheading">
+             We help clients to <br />
+                get more
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                <br />
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                <br />
+                enim ad minim veniam, quis nostrud exercitation ullamco <br />
+                laboris
+              </p>
+            </div>
+            <div class="Business_Growth">
+              <div>
+                <i class="bi bi-megaphone"></i>
+                <h3>Business Growth</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet <br />
+                  consectetur adipisicing elit..
+                </p>
+              </div>
+              <div>
+                <i class="bi bi-megaphone"></i>
+                <h3>Clients Satisfaction</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet <br />
+                  consectetur adipisicing elit..
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="why_Choose_usdiv2">
+            <img src="./images/why-choose-thumb.webp" alt="" width="100%" height="100%" />
+          </div>
+        </div>
+      </div>
+      <div class="slide3">
+<div>
+  <div>
+    <img src="./images/clean-designs-thumb.webp" alt="">
+    <p>25 years <br>
+      of experience</p>
+  </div>
+</div>
+<div>
+  <div class="why_Choose_usdiv1">
+    <div>
+      <h3 class="firstheading">Why Choose Us <span>____</span></h3>
+      <h1 class="secondheading">
+     We help clients to <br />
+        get more
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        <br />
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        <br />
+        enim ad minim veniam, quis nostrud exercitation ullamco <br />
+        laboris
+      </p>
+    </div>
+    <div class="Business_Growth">
+      <div>
+        <i class="bi bi-megaphone"></i>
+        <h3>Business Growth</h3>
+        <p>
+          Lorem, ipsum dolor sit amet <br />
+          consectetur adipisicing elit..
+        </p>
+      </div>
+      <div>
+        <i class="bi bi-megaphone"></i>
+        <h3>Clients Satisfaction</h3>
+        <p>
+          Lorem, ipsum dolor sit amet <br />
+          consectetur adipisicing elit..
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,236 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    display: flex;
+    width: 90% !important;
+    justify-content: space-evenly !important;
+
+}
+
+.icons i {
+    font-size: 20px;
+    color: blue;
+    margin: 10px;
+    padding: 5px;
+}
+
+.headerone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 1px solid skyblue;
+
+}
+
+.headeronediv {
+    padding-left: 8%;
+}
+
+.headeronedivp {
+    color: red;
+    padding-left: 20%;
+}
+
+.headeronediv p {
+    display: inline;
+    color: #61717B;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center !important;
+    width: 100%;
+
+}
+
+.navb ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navb li {
+    float: left;
+}
+
+.navb li a,
+.dropbtnn {
+    display: inline-block;
+    color: #222222;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navb li a:hover,
+.dropdownn:hover .dropbtnn {
+    color: #C1282A;
+
+}
+
+.navb li.dropdownn {
+    display: inline-block;
+}
+
+.dropdownn-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdownn-content a {
+    color: white;
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    background-color: white;
+    display: block !important;
+}
+
+.dropdownn-content a:hover {
+    color: #C1282A;
+
+}
+
+.dropdownn:hover .dropdownn-content {
+    display: block;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #C53627;
+    width: 200px;
+    height: 50px;
+}
+
+.btnred {
+    border: 1px solid transparent;
+    width: 185px;
+    border-radius: 5px;
+    background-color: #C53627;
+    color: white;
+    height: 40px;
+}
+
+.buttondiv .btnred:hover {
+    border: 1px solid yellow;
+}
+
+.toogle {
+    display: none;
+}
+
+.slide1 {
+    height: 100vh;
+    border: 1px solid red;
+    background-image: url("./images/home-one-banner.webp");
+    padding-left: 11%;
+    background-repeat: no-repeat;
+    
+}.slide1 h1{
+font-size:6vw;
+padding-top: 8%;
+color: white;
+
+} 
+.slide1 p{
+    font-size: 25px;
+color: white;
+padding-top: 2%;
+    }
+    .slide1 .buttondiv{
+        margin-top: 5%;
+    }
+.slide2 {
+    background-color: #F3F5F8;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.fourpic {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+
+}
+
+.fourpic div {
+    margin: 10px;
+
+}.fourpic img{
+    border-radius: 5px;
+
+}
+
+.why_Choose_us {
+    display: flex;
+    padding-top: 60px;
+    margin: 10px auto;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    width: 80%;
+   
+    flex-wrap: wrap;
+}
+
+.why_Choose_usdiv1 .firstheading {
+    color: #C53627;
+    font-weight: bolder;
+}
+
+.why_Choose_usdiv1 .secondheading {
+    color: #094174;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.why_Choose_usdiv1 p {
+    margin-top: 20px;
+    color: #567AB9;
+}
+
+.why_Choose_usdiv2 {
+    height: 500px;
+    width: 40%;
+
+}
+
+.why_Choose_us .why_Choose_usdiv1,
+.why_Choose_usdiv2 {
+    border: 1px solid red;
+}
+
+.Business_Growth {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Business_Growth div {
+    border: 1px solid red;
+
+}
+.slide3{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 900px) {
+    .toogle {
+        display: contents;
+    }
+
+    .navb {
+        display: none;
+    }
+}
